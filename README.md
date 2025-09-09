@@ -1,7 +1,7 @@
 # 🌌 Overby Industries
 **Ethical • Sustainable • Zero‑Waste Space Industry**
 
-<img width="192" height="192" alt="android-chrome-192x192" src="https://github.com/user-attachments/assets/6b89c264-6e77-4608-a265-9b5a59f9189a" /><!-- put a logo here or link from public site -->
+<img width="192" height="192" alt="android-chrome-192x192" src="https://github.com/user-attachments/assets/04ddb6c3-3831-49ed-8ddf-c49c7499d9db" /><!-- put a logo here or link from public site -->
 
 ## 🚀 Mission
 Overby Industries is building the sustainable backbone of humanity’s future in space.  
