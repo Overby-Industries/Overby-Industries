@@ -102,7 +102,7 @@ Here’s the digital “shipyard” of Overby Industries:
 - **[`outpost-core`](https://github.com/Overby-Industries/outpost-core)**  
   Systems software for surface outposts and repair depots.  
 
-- **[`whitepaper`](https://github.com/Overby-Industries/whitepaper)**  
+- **[`whitepapers`](https://github.com/Overby-Industries/whitepapers)**  
   The living **Overby White Paper**, roadmaps, and scientific references.  
 
 - **[`overby-industries`](https://github.com/Overby-Industries/overby-industries)**  
