@@ -18,7 +18,8 @@
 
 > **Towards Open,  Democratic Spaceflight**
 
-## 🚀 Mission ![Build Status](https://img.shields.io/badge/build-auto%20preview-green)
+# 🚀 Our Mission 
+![Build Status](https://img.shields.io/badge/build-auto%20preview-green)
 
 Overby Industries is building the sustainable backbone of humanity’s future in space.  
 Our focus is on **ethical, zero‑waste in‑situ resource utilization (ISRU)** to power the next century of exploration and construction.
