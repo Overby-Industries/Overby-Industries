@@ -57,7 +57,7 @@ This review compares Overby Industries’ vision against real scientific studies
   - Titan hydrocarbons: Cassini mission confirmed seas of methane/ethane on Titan’s surface → plausible large-scale extraction.
     - Conclusion: ✅ Supported; each ISRU resource stream already validated by data and early experiments.
 
-## ✅ Reusable Shuttle Architecture (Aircraft-Style Take-off and Landing at exsisting (low cost vs roctect launch pads) airport infrastructure)
+## ✅ Reusable Shuttle Architecture (Aircraft-Style Take-off and Landing at Exsisting Airport Infrastructure)
 - Overby Concept: Starlifter II → reusable powered flight shuttle / deep space transport with integrated power / propulsion unit.
 - Engineering Parallels:
   - Space Shuttle Orbiter already demonstrated runway-capable reentry.
