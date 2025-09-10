@@ -37,7 +37,15 @@ Here’s the digital “shipyard” of Overby Industries:
   Custom distributed operating system for fleets (miners, satellites, Starlifters).  
 
 - **[`miner-automation`](https://github.com/Overby-Industries/miner-automation)**  
-  PLC + automation systems for drills, crushers, containment bags, refinery pods.  
+  PLC + automation systems for drills, crushers, containment bags, refinery pods.
+
+- **[`space-reclamation`](https://github.com/Overby-Industries/space-reclamation)**  
+  Overby Industries sets the Space Zero-Waste Standard:
+    - Dustless containment bags for all surface mining → no uncontrolled debris.
+    - Reclamation mode built into every miner pod.
+    - Closed-loop processing: every waste stream becomes shielding, aggregate, or other secondary use.
+    - Transparency: operations certified by an “Overby Sustainability Code” available for public view.
+      - Overby will prove that industry and ecological stewardship can coexist — even in space.
 
 - **[`satnav-swarm`](https://github.com/Overby-Industries/satnav-swarm)**  
   Autonomous satellite navigation system for cislunar and asteroid belt operations.  
@@ -48,7 +56,7 @@ Here’s the digital “shipyard” of Overby Industries:
 - **[`whitepaper`](https://github.com/Overby-Industries/whitepaper)**  
   The living **Overby White Paper**, roadmaps, and scientific references.  
 
-- **[`landing-page`](https://github.com/Overby-Industries/landing-page)**  
+- **[`overby-industries`](https://github.com/Overby-Industries/overby-industries)**  
   Next.js + Tailwind public site (with starfield 🌌, donations, updates, contributors portal).  
 
 - **[`design-studies`](https://github.com/Overby-Industries/design-studies)**  
