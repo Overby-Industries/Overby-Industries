@@ -30,6 +30,9 @@ This project is more than technology. It’s a **movement**.
 
 Here’s the digital “shipyard” of Overby Industries:
 
+- **[`power-and-propulsion`](https://github.com/Overby-Industries/power-and-propulsion)**  
+  Dual-mode ion thrusters (ionic-liquids or solar-wind: space + ABEP: atmospheric) and MHD-Lorentz drives also powered by solar wind capture or ionic-liquids.
+
 - **[`starlifter-os`](https://github.com/Overby-Industries/starlifter-os)**  
   Custom distributed operating system for fleets (miners, satellites, Starlifters).  
 
