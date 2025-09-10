@@ -180,3 +180,6 @@ White Paper & branding © Overby Industries.
 
 **"We’re not strip-mining the sky.  
 We’re building a sustainable, open, interplanetary economy." 🌌**
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Overby-Industries&show_icons=true&bg_color=DEG,00000000,2f80ed)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Overby-Industries&show_icons=true&bg_color=DEG,00000000,2f80ed)](https://github.com/Overby-Industries/github-readme-stats)
