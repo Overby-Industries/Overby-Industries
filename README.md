@@ -1,5 +1,5 @@
 # 🌌 Overby Industries
-**Ethical • Sustainable • Zero‑Waste Space Industry**
+**Ethical • Sustainable • Zero‑Waste ISRU Space Industry**
 
 <img width="192" height="192" alt="android-chrome-192x192" src="https://github.com/user-attachments/assets/04ddb6c3-3831-49ed-8ddf-c49c7499d9db" /><!-- put a logo here or link from public site -->
 
