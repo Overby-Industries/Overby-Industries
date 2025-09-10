@@ -1,4 +1,18 @@
 # 🌌 Overby Industries
+<!-- Overby Standard Badges -->
+
+[![License: CC BY-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+![Build Status](https://img.shields.io/badge/build-auto%20preview-green)
+![Build White Papers](https://github.com/Overby-Industries/whitepapers/actions/workflows/latex-build.yml/badge.svg)
+[![Latest PDFs](https://img.shields.io/badge/download-latest%20papers-blue)](https://github.com/Overby-Industries/whitepapers/tree/main/whitepapers/dist)
+![Last Commit](https://img.shields.io/github/last-commit/Overby-Industries/power-and-propulsion)
+![Repo Size](https://img.shields.io/github/repo-size/Overby-Industries/power-and-propulsion)
+![Contributors](https://img.shields.io/github/contributors/Overby-Industries/power-and-propulsion)
+![Issues](https://img.shields.io/github/issues-raw/Overby-Industries/power-and-propulsion)
+![Pull Requests](https://img.shields.io/github/issues-pr-raw/Overby-Industries/power-and-propulsion)
+![Commit Activity](https://img.shields.io/github/commit-activity/m/Overby-Industries/power-and-propulsion)
+[![Latest Release](https://img.shields.io/github/v/release/Overby-Industries/whitepapers)](https://github.com/Overby-Industries/whitepapers/releases)
+
 **Ethical • Sustainable • Zero‑Waste ISRU Space Industry**
 
 <img width="192" height="192" alt="android-chrome-192x192" src="https://github.com/user-attachments/assets/04ddb6c3-3831-49ed-8ddf-c49c7499d9db" /><!-- put a logo here or link from public site -->
