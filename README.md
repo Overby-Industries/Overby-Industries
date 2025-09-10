@@ -13,9 +13,11 @@
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/Overby-Industries/power-and-propulsion)
 [![Latest Release](https://img.shields.io/github/v/release/Overby-Industries/whitepapers)](https://github.com/Overby-Industries/whitepapers/releases)
 
-**Ethical • Sustainable • Zero‑Waste ISRU Space Industry**
+> **Ethical • Sustainable • Zero‑Waste ISRU Space Industry**
 
 <img width="192" height="192" alt="android-chrome-192x192" src="https://github.com/user-attachments/assets/04ddb6c3-3831-49ed-8ddf-c49c7499d9db" /><!-- put a logo here or link from public site -->
+
+> **Towards Open,  Democratic Spaceflight**
 
 ## 🚀 Mission
 Overby Industries is building the sustainable backbone of humanity’s future in space.  
