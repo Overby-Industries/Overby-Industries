@@ -70,6 +70,27 @@ flowchart TD
     C -->|Power| Payload[Onboard Systems]
 ```
 
+```mermaid
+flowchart LR
+
+subgraph Generator_Mode [MHD Generator Mode]
+    A[Inflow Plasma / Ionic Liquid] --> B{MHD Channel}
+    B -->|Induces Current| C[Electrodes & Coils]
+    C --> D[Graphene Supercapacitors]
+    C --> E[Aluminum-Ion Tanks]
+    D -->|Power| F[Payload Systems]
+    E -->|Storage| F
+end
+
+subgraph Thruster_Mode [Lorentz Thrust Mode]
+    A2[Inflow Plasma / Ionic Liquid] --> B2{MHD Channel}
+    B2 -->|Lorentz Force Accelerates| C2[Plasma Exhaust]
+    C2 --> D2[Reaction: ΔV Forward Thrust]
+end
+
+F -->|Discharge| B2
+```
+
 > The Overby propulsion core operates as a dual‑function magnetohydrodynamic (MHD) channel in which a conductive working medium—either plasma generated from captured solar wind ions or vaporized ionic‑liquids—is > accelerated through a strong magnetic field. According to Faraday’s law, motion of charged particles through the orthogonal magnetic field induces current picked up across electrodes, enabling electricity
 > harvesting. By adjusting electrode polarities and coil geometries, the same Lorentz force that resists charge motion in generator mode can be flipped to accelerate plasma out of the channel, producing thrust. > Thus the MHD stage is both a generator and an accelerator: in generator mode it extracts current from ionized flow to charge graphene supercapacitors and aluminum‑ion battery tanks; in thruster mode it dumps
 > stored current back across the coils to push the ions to high exhaust velocity. This architecture effectively couples power generation and propulsion into a single loop, allowing “endless trickle” capture from > solar wind plus burst‑mode thrust for maneuvers.
