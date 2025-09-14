@@ -112,6 +112,21 @@ F -->|Discharge| B2
   - Titan hydrocarbons: Cassini mission confirmed seas of methane/ethane on Titan’s surface → plausible large-scale extraction.
     - Conclusion: ✅ Supported; each ISRU resource stream already validated by data and early experiments.
 
+```mermaid
+flowchart LR
+    A[Asteroid Regolith] -->|Aluminum, Silicates| B[Aluminum Extraction]
+    B -->|w/ Chlorine or Halides| C[Aluminum Chloride Precursors]
+    D[Titan Hydrocarbons / Organics] --> E[Organic Base Precursors]
+    E --> F[Ionic Cations]
+    C --> G[Mixing & Electrochemistry]
+    F --> G
+    G --> H[Reconditioned Ionic Liquid Tanks]
+    
+    H -->|Propellant Feed| Thruster[MHD Channel / Electrospray]
+    H -->|Thermal Buffer| Reentry[Re‑Entry Thermal Sink]
+    H -->|Battery Medium| Energy[Al‑Ion Battery Storage]
+```
+
 ## ✅ Reusable Shuttle Architecture (Aircraft-Style Take-off and Landing at Exsisting Airport Infrastructure)
 - Overby Concept: Starlifter II → reusable powered flight shuttle / deep space transport with integrated power / propulsion unit.
 - Engineering Parallels:
