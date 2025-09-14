@@ -57,6 +57,19 @@ This review compares Overby Industries’ vision against real scientific studies
   - Magnetosail / Electric Sail concepts (Janhunen, Pekka 2006; NASA Innovative Advanced Concepts (NIAC)) propose using solar wind particles for thrust and power.
     - Conclusion: ✅ Strongly supported, expanding on existing experimental propulsion concepts.
 
+```mermaid
+flowchart TD
+    A[Solar Wind Capture] --> P[Plasma Channel]
+    B[Ionic Liquid Tank] --> P
+    P -->|Ion Flow| C[MHD Reactor Core]
+    C -->|Induced Current| D[Graphene Supercapacitors]
+    D -->|Discharge| E[Dual Mode Ion Thruster]
+    P -->|Lorentz Acceleration| E
+    E --> THRUST[ΔV Thrust Out]
+
+    C -->|Power| Payload[Onboard Systems]
+```
+
 ## ✅ Ionic Liquids as Energy Storage and Propellant
 - Overby Concept: Ionic liquids used for batteries, propellant, and thermal shielding.
 - Scientific Basis:
