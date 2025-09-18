@@ -175,7 +175,7 @@ Here’s the digital “shipyard” of Overby Industries:
 - **[`whitepapers`](https://github.com/Overby-Industries/whitepapers)**  
   The living **Overby White Paper**, roadmaps, and scientific references.  
 
-- **[`overby-industries`](https://github.com/Overby-Industries/overby-industries)**  
+- **[`overby-industries-pwa`](https://github.com/Overby-Industries/overby-industries-pwa)**  
   Next.js + Tailwind public site (with starfield 🌌, donations, updates, contributors portal).  
 
 - **[`design-studies`](https://github.com/Overby-Industries/design-studies)**  
