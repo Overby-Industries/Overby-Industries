@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌌 Overby Industries
 <!-- Overby Standard Badges -->
 
@@ -476,4 +475,3 @@ We’re building a sustainable, open, interplanetary economy." 🌌**
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Overby-Industries&show_icons=true&bg_color=DEG,00000000,2f80ed)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Overby-Industries&layout=compact&show_icons=true&bg_color=DEG,00000000,2f80ed)](https://github.com/Overby-Industries/github-readme-stats)
->>>>>>> fcb5c87 (configuring files)
