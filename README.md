@@ -16,7 +16,7 @@
 
 <img width="192" height="192" alt="android-chrome-192x192" src="https://github.com/user-attachments/assets/04ddb6c3-3831-49ed-8ddf-c49c7499d9db" /><!-- put a logo here or link from public site -->
 
-> **Towards Open,  Democratic Spaceflight**
+> **Towards Open, Direct Democracy**
 
 # 🚀 Our Mission 
 ![Build Status](https://img.shields.io/badge/build-auto%20preview-green)
@@ -237,4 +237,5 @@ We’re building a sustainable, open, interplanetary economy." 🌌**
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Overby-Industries&show_icons=true&bg_color=DEG,00000000,2f80ed)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Overby-Industries&layout=compact&show_icons=true&bg_color=DEG,00000000,2f80ed)](https://github.com/Overby-Industries/github-readme-stats)
 =======
+
 
