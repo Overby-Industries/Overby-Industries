@@ -13,6 +13,8 @@
 [![Latest Release](https://img.shields.io/github/v/release/Overby-Industries/whitepapers)](https://github.com/Overby-Industries/whitepapers/releases)
 
 > **Honesty • Honour • Courage • Commitment**
+
+Project Helga's hypersonic spline airfoil design.
 <img width="1245" height="900" alt="helga" src="https://github.com/user-attachments/assets/c0276687-17b7-4dfd-a2c4-d3fcc5e144a8" />
 
 > **Towards Open, Direct Democracy**
@@ -238,6 +240,7 @@ We’re building a sustainable, open, interplanetary economy." 🌌**
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Overby-Industries&show_icons=true&bg_color=DEG,00000000,2f80ed)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Overby-Industries&layout=compact&show_icons=true&bg_color=DEG,00000000,2f80ed)](https://github.com/Overby-Industries/github-readme-stats)
 =======
+
 
 
 
