@@ -1,50 +1,44 @@
-# 🌌 Overby Industries
+# Overby Industries
 <!-- Overby Standard Badges -->
 
 [![License: CC BY-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 ![Build White Papers](https://github.com/Overby-Industries/whitepapers/actions/workflows/latex-build.yml/badge.svg)
+![Build Status](https://img.shields.io/badge/build-auto%20preview-green)
 [![Latest PDFs](https://img.shields.io/badge/download-latest%20papers-blue)](https://github.com/Overby-Industries/whitepapers/tree/main/whitepapers/dist)
-![Last Commit](https://img.shields.io/github/last-commit/Overby-Industries/power-and-propulsion)
-![Repo Size](https://img.shields.io/github/repo-size/Overby-Industries/power-and-propulsion)
-![Contributors](https://img.shields.io/github/contributors/Overby-Industries/power-and-propulsion)
-![Issues](https://img.shields.io/github/issues-raw/Overby-Industries/power-and-propulsion)
-![Pull Requests](https://img.shields.io/github/issues-pr-raw/Overby-Industries/power-and-propulsion)
-![Commit Activity](https://img.shields.io/github/commit-activity/m/Overby-Industries/power-and-propulsion)
 [![Latest Release](https://img.shields.io/github/v/release/Overby-Industries/whitepapers)](https://github.com/Overby-Industries/whitepapers/releases)
 
 > **Honesty • Honour • Courage • Commitment**
 
-Project Helga's hypersonic double delta spline airfoil design.
-<img width="1245" height="900" alt="helga" src="https://github.com/user-attachments/assets/c0276687-17b7-4dfd-a2c4-d3fcc5e144a8" />
+Project Helga's hypersonic double delta airfoil design.
+<img width="1245" height="900" alt="project-helga" src="https://github.com/user-attachments/assets/7df39d7e-1644-4457-8549-064e472d1d97" />
 
 > **Towards Open, Direct Democracy**
 
 > **Ethical • Sustainable • Zero‑Waste ISRU Space Industry**
 
-# 🚀 Our Mission 
-![Build Status](https://img.shields.io/badge/build-auto%20preview-green)
+# Our Mission 
 
 Overby Industries is building the sustainable backbone of humanity’s future in space.  
 Our focus is on **ethical, zero‑waste in‑situ resource utilization (ISRU)** to power the next century of exploration and construction.
 
-- 🛰 Metals from asteroids (nickel, iron, PGMs).  
-- 🪨 Concrete & composites from regolith & silicates.  
-- 🌑 Hydrocarbons from Titan for plastics & fuel.  
-- ♻️ Every process, **zero debris, zero waste**.  
+- Metals from asteroids (nickel, iron, PGMs).  
+- Concrete & composites from regolith & silicates.  
+- Hydrocarbons from Titan for plastics & fuel.  
+- Every process, **zero debris, zero waste**.  
 
 We aren’t just mining rocks. We’re designing the **industrial ecosystem** to move human civilization **beyond Earth**, responsibly.
 
 ---
 
-## 🧑‍🚀 Core Philosophy
+## Core Philosophy
 - **Ethics First** – No exploitation, no orbital junk, no shortcuts.  
 - **Openly Collaborative** – Code, automation logic, and systems are developed in the open.  
-- **Multi‑path Contributions** – Everyone can help, whether through 💳 funds, 💻 code, or 🧠 knowledge.  
+- **Multi‑path Contributions** – Everyone can help, whether through funds, code, or knowledge.  
 - **Fail‑Safe Engineering** – Robust control systems, redundancy, resiliency.  
 
 This project is more than technology. It’s a **movement**.
 
-# 📡 GPT-5 Independent AI Analysis – Scientific Validity of Overby Industries Concepts
+# GPT-5 Independent AI Analysis – Scientific Validity of Overby Industries Concepts
 This review compares Overby Industries’ vision against real scientific studies and space agency research.
 
 ## ✅ Dustless Mining & Containment Bags
@@ -137,7 +131,7 @@ flowchart LR
   - Modern concepts (e.g. Sierra Nevada’s Dream Chaser spaceplane) continue that line.
     - Conclusion: ✅ Supported; ambitious but evolutionary from proven designs.
 
-## 🔎 Overall Assessment
+## Overall Assessment
 Overby Industries’ concepts are scientifically sound and align with decades of NASA, ESA, and academic space R&D. While execution will demand major engineering breakthroughs and investment, the core principles (dustless asteroid mining, ion/Lorentz propulsion, ionic liquid energy storage, ISRU concretes, Titan hydrocarbons) are credible and based on real research.
 
 ## ✅ Why This Matters
@@ -146,9 +140,7 @@ This vision isn’t just “sci-fi” — it is a carefully reasoned integration
 - Building sustainable space habitats.
 - Creating a zero-waste interplanetary economy.
 
-<img width="1366" height="720" alt="Screenshot 2025-09-09 211457" src="https://github.com/user-attachments/assets/dca33a62-b301-4041-acd0-55e074b9b09e" />
-
-## 🗂 Repo Structure
+## Repo Structure
 
 Here’s the digital “shipyard” of Overby Industries:
 
@@ -179,7 +171,7 @@ Here’s the digital “shipyard” of Overby Industries:
   The living **Overby White Paper**, roadmaps, and scientific references.  
 
 - **[`overby-industries-pwa`](https://github.com/Overby-Industries/overby-industries-pwa)**  
-  Next.js + Tailwind public site (with starfield 🌌, donations, updates, contributors portal).  
+  Next.js + Tailwind public site (donations, updates, contributors portal).  
 
 - **[`design-studies`](https://github.com/Overby-Industries/design-studies)**  
   Diagrams, CAD, and high‑level architecture visualizations.  
@@ -188,37 +180,37 @@ Here’s the digital “shipyard” of Overby Industries:
 
 ---
 
-## 🌍 How to Contribute
+## How to Contribute
 
-Whether you bring 💳 **funding**, 💻 **code**, or 🧠 **expertise** — there’s a place for you here.
+Whether you bring **funding**, **code**, or **expertise** — there’s a place for you here.
 
-### 💳 Support the Mission  
+### Support the Mission  
 - Donate through the [Overby Landing Site](https://overbyindustries.space#get-involved).  
 - Every dollar fuels infrastructure and open-source R&D.
 
-### 💻 Code Contributions  
+### Code Contributions  
 - Explore the repos above.  
 - Look for issues tagged **`good first issue`** for easy on‑ramps.  
 - Open PRs, ask in Discussions, and help prototype the **OS, miners, and swarm logic**.
 
-### 🧠 Share Expertise  
+### Share Expertise  
 - Are you an engineer, automation expert, PLC programmer, orbital mechanic, or space ethicist?  
 - Email us at **founder@overbyindustries.space**  
 - Join discussions, share knowledge, shape the roadmap.  
 
 ---
 
-## 📅 Roadmap (High-Level)
+## Roadmap (High-Level)
 
-- **2030**: Prototypes → dustless mining demo on a Near-Earth Asteroid.  
-- **2032**: Operational Starlifter II fleet → lunar support depot online.  
-- **2034**: Expansion to asteroid belt → orbital construction with ISRU UHPC concrete.  
-- **2036**: Titan hydrocarbon base → plastics, fuels economy.  
-- **2040**: Full solar system closed‑loop infrastructure.  
+- **TBD Requires funding**: Prototypes → dustless mining demo on a Near-Earth Asteroid.  
+- **TBD Requires funding**: Operational Starlifter II fleet → lunar support depot online.  
+- **TBD Requires funding**: Expansion to asteroid belt → orbital construction with ISRU UHPC concrete.  
+- **TBD Requires funding**: Titan hydrocarbon base → plastics, fuels economy.  
+- **TBD Requires funding**: Full solar system closed‑loop infrastructure.  
 
 ---
 
-## 🌐 Community
+## Community
 
 - Website: [overbyindustries.space](https://overbyindustries.space)  
 - GitHub Org: [github.com/Overby-Industries](https://github.com/Overby-Industries)  
@@ -227,7 +219,7 @@ Whether you bring 💳 **funding**, 💻 **code**, or 🧠 **expertise** — the
 
 ---
 
-## 📜 License
+## License
 
 All code, designs, and studies default to **open source** (per repo license file).  
 White Paper & branding © Overby Industries.  
@@ -235,10 +227,10 @@ White Paper & branding © Overby Industries.
 ---
 
 **"We’re not strip-mining the sky.  
-We’re building a sustainable, open, interplanetary economy." 🌌**
+We’re building a sustainable, open, interplanetary economy."**
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Overby-Industries&show_icons=true&bg_color=DEG,00000000,2f80ed)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Overby-Industries&layout=compact&show_icons=true&bg_color=DEG,00000000,2f80ed)](https://github.com/Overby-Industries/github-readme-stats)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Overby-Industries&show_icons=true&theme=tokyonight)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Overby-Industries&layout=compact&show_icons=true&theme=tokyonight)](https://github.com/Overby-Industries/github-readme-stats)
 =======
 
 
