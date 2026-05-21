@@ -9,14 +9,13 @@
 
 > **Honesty • Honour • Courage • Commitment**
 
-Project Helga's hypersonic double delta airfoil design.
-<img width="1245" height="900" alt="project-helga" src="https://github.com/user-attachments/assets/7df39d7e-1644-4457-8549-064e472d1d97" />
+<img width="1254" height="1254" alt="aevoria" src="https://github.com/user-attachments/assets/8f53c0a9-c624-43eb-9246-965bf88f651d" />
 
-> **Towards Open, Direct Democracy**
-
-> **Ethical • Sustainable • Zero‑Waste ISRU Space Industry**
+**Towards Open, Direct Democracy**
 
 # Our Mission 
+
+> **Ethical • Sustainable • Zero‑Waste ISRU Space Industry**
 
 Overby Industries is building the sustainable backbone of humanity’s future in space.  
 Our focus is on **ethical, zero‑waste in‑situ resource utilization (ISRU)** to power the next century of exploration and construction.
@@ -229,8 +228,6 @@ White Paper & branding © Overby Industries.
 **"We’re not strip-mining the sky.  
 We’re building a sustainable, open, interplanetary economy."**
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Overby-Industries&show_icons=true&theme=tokyonight)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Overby-Industries&layout=compact&show_icons=true&theme=tokyonight)](https://github.com/Overby-Industries/github-readme-stats)
 =======
 
 
