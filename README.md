@@ -4,7 +4,7 @@
 [![License: CC BY-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 ![Build White Papers](https://github.com/Overby-Industries/whitepapers/actions/workflows/latex-build.yml/badge.svg)
 ![Build Status](https://img.shields.io/badge/build-auto%20preview-green)
-[![Latest PDFs](https://img.shields.io/badge/download-latest%20papers-blue)](https://github.com/Overby-Industries/whitepapers/tree/main/whitepapers/dist)
+[![Latest PDFs](https://img.shields.io/badge/download-latest%20papers-blue)](https://github.com/Overby-Industries/whitepapers/tree/main/dist)
 [![Latest Release](https://img.shields.io/github/v/release/Overby-Industries/whitepapers)](https://github.com/Overby-Industries/whitepapers/releases)
 
 > **Honesty • Honour • Courage • Commitment**
@@ -141,16 +141,18 @@ This vision isn’t just “sci-fi” — it is a carefully reasoned integration
 
 ## Repo Structure
 
-Here’s the digital “shipyard” of Overby Industries:
+Here’s the digital “shipyard” of Overby Industries — active repos first, planned ones at the bottom.
+
+**Live now:**
+
+- **[`overby-industries-pwa`](https://github.com/Overby-Industries/overby-industries-pwa)**  
+  Next.js + Tailwind public site (overbyindustries.space).
+
+- **[`whitepapers`](https://github.com/Overby-Industries/whitepapers)**  
+  The living **Overby White Paper**, roadmaps, and scientific references.
 
 - **[`power-and-propulsion`](https://github.com/Overby-Industries/power-and-propulsion)**  
   Dual-mode ion thrusters (ionic-liquids or solar-wind: space + ABEP: atmospheric) and MHD-Lorentz drives also powered by solar wind capture or ionic-liquids.
-
-- **[`starlifter-os`](https://github.com/Overby-Industries/starlifter-os)**  
-  Custom distributed operating system for fleets (miners, satellites, Starlifters).  
-
-- **[`miner-automation`](https://github.com/Overby-Industries/miner-automation)**  
-  PLC + automation systems for drills, crushers, containment bags, refinery pods.
 
 - **[`space-reclamation`](https://github.com/Overby-Industries/space-reclamation)**  
   Overby Industries sets the Space Zero-Waste Standard:
@@ -160,22 +162,31 @@ Here’s the digital “shipyard” of Overby Industries:
     - Transparency: operations certified by an “Overby Sustainability Code” available for public view.
       - Overby will prove that industry and ecological stewardship can coexist — even in space.
 
-- **[`satnav-swarm`](https://github.com/Overby-Industries/satnav-swarm)**  
-  Autonomous satellite navigation system for cislunar and asteroid belt operations.  
+- **[`code-of-universe-regulations`](https://github.com/Overby-Industries/code-of-universe-regulations)**  
+  Constitution and ethical operating system for the Aevoric Commonwealth — direct democracy, transparency, and a post-scarcity governance model for space civilization.
 
-- **[`outpost-core`](https://github.com/Overby-Industries/outpost-core)**  
-  Systems software for surface outposts and repair depots.  
+- **[`rights-for-all-life`](https://github.com/Overby-Industries/rights-for-all-life)**  
+  Open-source ethical governance framework establishing rights protections for all conscious life — biological, silicon-based, and beyond.
 
-- **[`whitepapers`](https://github.com/Overby-Industries/whitepapers)**  
-  The living **Overby White Paper**, roadmaps, and scientific references.  
+- **[`aevoria-simulator`](https://github.com/Overby-Industries/aevoria-simulator)**  
+  Adversarial sandbox that stress-tests the Code of Universe Regulations — an asteroid-mining and governance simulator for the Aevoric Commonwealth.
 
-- **[`overby-industries-pwa`](https://github.com/Overby-Industries/overby-industries-pwa)**  
-  Next.js + Tailwind public site (donations, updates, contributors portal).  
+- **[`telemetry-protocol`](https://github.com/Overby-Industries/telemetry-protocol)**  
+  OTF‑1 — the open telemetry format tying together Overby's mining, debris-reclamation, and certification data feeds.
 
-- **[`design-studies`](https://github.com/Overby-Industries/design-studies)**  
-  Diagrams, CAD, and high‑level architecture visualizations.  
+- **[`transparency-protocol`](https://github.com/Overby-Industries/transparency-protocol)**  
+  OTB‑1 — the open JSON schema for publicly reporting Overby's expenditures and infrastructure investments.
 
-*(More to come: propulsion experiments, Titan ISRU proofs, etc.)*
+- **[`cis-animations`](https://github.com/Overby-Industries/cis-animations)**  
+  Creative lab for the Overby visual identity — animations and branding assets used across white papers and the site.
+
+**Planned (not yet started):**
+
+- `starlifter-os` — custom distributed operating system for fleets (miners, satellites, Starlifters).
+- `miner-automation` — PLC + automation systems for drills, crushers, containment bags, refinery pods.
+- `satnav-swarm` — autonomous satellite navigation for cislunar and asteroid belt operations.
+- `outpost-core` — systems software for surface outposts and repair depots.
+- `design-studies` — diagrams, CAD, and high-level architecture visualizations.
 
 ---
 
@@ -227,11 +238,5 @@ White Paper & branding © Overby Industries.
 
 **"We’re not strip-mining the sky.  
 We’re building a sustainable, open, interplanetary economy."**
-
-=======
-
-
-
-
 
 
