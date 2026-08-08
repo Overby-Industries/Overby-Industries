@@ -141,12 +141,13 @@ This vision isn’t just “sci-fi” — it is a carefully reasoned integration
 
 ## Repo Structure
 
-Here’s the digital “shipyard” of Overby Industries — active repos first, planned ones at the bottom.
+Here’s the digital “shipyard” of Overby Industries. Every repo below now exists and has at least a real mission doc and starting structure — several have open PRs from this pass, noted inline.
 
 **Live now:**
 
 - **[`overby-industries-pwa`](https://github.com/Overby-Industries/overby-industries-pwa)**  
   Next.js + Tailwind public site (overbyindustries.space).
+  *Whitepaper content sync (was hand-copied and drifted) + a real `/updates` feed in review: [PR #40](https://github.com/Overby-Industries/overby-industries-pwa/pull/40).*
 
 - **[`whitepapers`](https://github.com/Overby-Industries/whitepapers)**  
   The living **Overby White Paper**, roadmaps, and scientific references.
@@ -183,13 +184,25 @@ Here’s the digital “shipyard” of Overby Industries — active repos first,
   OTB‑1 — the open JSON schema for publicly reporting Overby's expenditures and infrastructure investments.
   *Now has a formal JSON Schema, examples, and a validator in review: [PR #1](https://github.com/Overby-Industries/transparency-protocol/pull/1).*
 
-**Planned (not yet started):**
+- **[`starlifter-os`](https://github.com/Overby-Industries/starlifter-os)**  
+  Custom distributed operating system for fleets (miners, satellites, Starlifters) — coordinates the per-vehicle control each fleet member runs locally (see `power-and-propulsion`'s flight-phase FSM).
+  *Newly created — mission, relationship to other repos, and a draft architecture are up; implementation hasn't started.*
 
-- `starlifter-os` — custom distributed operating system for fleets (miners, satellites, Starlifters).
-- `miner-automation` — PLC + automation systems for drills, crushers, containment bags, refinery pods.
-- `satnav-swarm` — autonomous satellite navigation for cislunar and asteroid belt operations.
-- `outpost-core` — systems software for surface outposts and repair depots.
-- `design-studies` — diagrams, CAD, and high-level architecture visualizations.
+- **[`miner-automation`](https://github.com/Overby-Industries/miner-automation)**  
+  PLC + automation systems for drills, crushers, containment bags, refinery pods.
+  *Newly created — mission and a draft pod-level FSM (gating drilling on redundant containment-seal confirmation) are up; implementation hasn't started.*
+
+- **[`satnav-swarm`](https://github.com/Overby-Industries/satnav-swarm)**  
+  Autonomous satellite navigation for cislunar and asteroid belt operations, where GPS doesn't reach.
+  *Newly created — mission and a draft navigation-approach doc are up; implementation hasn't started.*
+
+- **[`outpost-core`](https://github.com/Overby-Industries/outpost-core)**  
+  Systems software for surface outposts and repair depots.
+  *Newly created — mission and a draft subsystems doc are up; implementation hasn't started.*
+
+- **[`design-studies`](https://github.com/Overby-Industries/design-studies)**  
+  Diagrams, CAD, and high-level architecture visualizations.
+  *Newly created and already populated: XFLR5 aerodynamics analysis for Project Helga/Starlifter II, concept sketches, and the Blender→Godot asset pipeline guide, migrated in from local-only files. The ~96MB of Blender source files still need Git LFS before they can move in — see that repo's `docs/asset-inventory.md`.*
 
 ---
 
