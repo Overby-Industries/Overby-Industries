@@ -228,11 +228,21 @@ Whether you bring **funding**, **code**, or **expertise** — there’s a place 
 
 ## Roadmap (High-Level)
 
-- **TBD Requires funding**: Prototypes → dustless mining demo on a Near-Earth Asteroid.  
-- **TBD Requires funding**: Operational Starlifter II fleet → lunar support depot online.  
-- **TBD Requires funding**: Expansion to asteroid belt → orbital construction with ISRU UHPC concrete.  
-- **TBD Requires funding**: Titan hydrocarbon base → plastics, fuels economy.  
-- **TBD Requires funding**: Full solar system closed‑loop infrastructure.  
+Mirrors the roadmap on the [Overby Industries site](https://overbyindustries.space) —
+see `src/app/content/roadmap.ts` in [`overby-industries-pwa`](https://github.com/Overby-Industries/overby-industries-pwa)
+for the source of truth this is kept in sync with.
+
+- **Phase I — Foundations** *(Current – Q4 2027)*: Aerospace engineering drawings, avionics and embedded systems in C++. Document the build process with videos posted to the app.
+- **Phase II — Experimental Amateur Build** *(Q1 2028)*: Rent hangar space, build E‑AB aircraft and propulsion systems. Ground tests, taxi tests.
+- **Phase II.5 — Proof of Concept** *(Q1 2030)*: Fly a 1:6 scaled manned E‑AB test vehicle. Validate propulsion systems, avionics, and flight software.
+- **Phase III — Low Orbit Demo** *(Q3 2030)*: First suborbital mission — validate ISRU sensor packages and mining instrumentation in a real space environment.
+- **Phase IV — Near Earth Operations** *(Q4 2030)*: Deploy a small orbital platform. Begin debris-capture experiments, establish first profitable debris-capture contracts, build relationships with space agencies and commercial operators.
+- **Phase V — Industrial Pilot** *(2030 – 2040)*: Operational Starlifter II fleet. Lunar depot established. First profitable asteroid returns.
+- **Phase VI — Expansion** *(2040 – 2050)*: Asteroid belt exploitation, UHPC space construction, Mars staging posts established.
+- **Phase VII — Titan Era** *(2050)*: Titan base begins extracting hydrocarbons for plastics and fuels. Full ISRU integration. Overby Certification becomes a global standard.
+- **Phase VIII — Solar Civilization** *(2060)*: Closed-loop resource economy across the Solar System.
+
+All phases beyond Phase I remain **TBD, requires funding.**
 
 ---
 
