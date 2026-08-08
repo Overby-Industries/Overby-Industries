@@ -150,9 +150,11 @@ Here’s the digital “shipyard” of Overby Industries — active repos first,
 
 - **[`whitepapers`](https://github.com/Overby-Industries/whitepapers)**  
   The living **Overby White Paper**, roadmaps, and scientific references.
+  *CI build fix + a new Magnetohydrodynamic Power & Propulsion paper draft in review: [PR #1](https://github.com/Overby-Industries/whitepapers/pull/1).*
 
 - **[`power-and-propulsion`](https://github.com/Overby-Industries/power-and-propulsion)**  
   Dual-mode ion thrusters (ionic-liquids or solar-wind: space + ABEP: atmospheric) and MHD-Lorentz drives also powered by solar wind capture or ionic-liquids.
+  *Now has an actual codebase — C++ sizing library for the MHD core, the shuttle flight-phase FSM, and a CAD starter script — in review: [PR #1](https://github.com/Overby-Industries/power-and-propulsion/pull/1).*
 
 - **[`space-reclamation`](https://github.com/Overby-Industries/space-reclamation)**  
   Overby Industries sets the Space Zero-Waste Standard:
@@ -161,6 +163,8 @@ Here’s the digital “shipyard” of Overby Industries — active repos first,
     - Closed-loop processing: every waste stream becomes shielding, aggregate, or other secondary use.
     - Transparency: operations certified by an “Overby Sustainability Code” available for public view.
       - Overby will prove that industry and ecological stewardship can coexist — even in space.
+
+    *Phase 1 research registry (sources, capture-tech comparison, debris-tracking schema) in review: [PR #1](https://github.com/Overby-Industries/space-reclamation/pull/1).*
 
 - **[`code-of-universe-regulations`](https://github.com/Overby-Industries/code-of-universe-regulations)**  
   Constitution and ethical operating system for the Aevoric Commonwealth — direct democracy, transparency, and a post-scarcity governance model for space civilization.
@@ -173,12 +177,11 @@ Here’s the digital “shipyard” of Overby Industries — active repos first,
 
 - **[`telemetry-protocol`](https://github.com/Overby-Industries/telemetry-protocol)**  
   OTF‑1 — the open telemetry format tying together Overby's mining, debris-reclamation, and certification data feeds.
+  *Now has a formal JSON Schema, examples, and a validator in review: [PR #1](https://github.com/Overby-Industries/telemetry-protocol/pull/1).*
 
 - **[`transparency-protocol`](https://github.com/Overby-Industries/transparency-protocol)**  
   OTB‑1 — the open JSON schema for publicly reporting Overby's expenditures and infrastructure investments.
-
-- **[`cis-animations`](https://github.com/Overby-Industries/cis-animations)**  
-  Creative lab for the Overby visual identity — animations and branding assets used across white papers and the site.
+  *Now has a formal JSON Schema, examples, and a validator in review: [PR #1](https://github.com/Overby-Industries/transparency-protocol/pull/1).*
 
 **Planned (not yet started):**
 
