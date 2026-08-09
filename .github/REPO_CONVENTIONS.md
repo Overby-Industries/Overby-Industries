@@ -1,10 +1,10 @@
-# 📂 Overby Repo & Labeling Conventions
+# Overby Repo & Labeling Conventions
 
 To keep Overby Industries’ GitHub Organization clean, transparent, and professional, all repos follow this convention:
 
 ---
 
-## 🛰 Repository Naming
+## Repository Naming
 
 - **`landing-page`** → public-facing web/app sites.
 - **`whitepaper`** → formal docs, press releases, standards.
@@ -22,7 +22,7 @@ Naming Rules:
 
 ---
 
-## 🏷 GitHub Labels
+## GitHub Labels
 
 - **tech:...** → technical issues/PRs  
   - `tech:capture-methods`  
@@ -48,7 +48,7 @@ Color Coding:
 
 ---
 
-## 📜 Repository Boilerplate
+## Repository Boilerplate
 
 Each repo **MUST** have:  
 - `README.md` → overview, purpose, goals.  

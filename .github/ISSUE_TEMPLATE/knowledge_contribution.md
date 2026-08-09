@@ -1,22 +1,22 @@
 ---
-name: 📚 Knowledge Contribution
+name: Knowledge Contribution
 about: Share research, references, or expertise with Overby Industries
 title: "[KNOWLEDGE] "
 labels: knowledge
 assignees: ''
 ---
 
-## 📖 Summary
+## Summary
 What knowledge are you contributing?
 
-## 🔗 References / Papers / Links
+## References / Papers / Links
 Provide citations, URLs, published works.
 
-## 🧠 Context
+## Context
 How does this relate to Overby’s mission?
 (e.g. "Supports debris cleanup algorithm", "PLC best practice", "Propulsion paper")
 
-## 🌌 Application
+## Application
 Which repo(s) or domains does this help?
 - [ ] starlifter-os
 - [ ] miner-automation
@@ -24,5 +24,5 @@ Which repo(s) or domains does this help?
 - [ ] design-studies
 - [ ] other
 
-## 🤝 Contributor Info
+## Contributor Info
 (Optional) Your background / expertise area

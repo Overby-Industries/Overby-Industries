@@ -1,19 +1,19 @@
 ---
-name: 🛠 Feature Request
+name: Feature Request
 about: Suggest an idea for this project
 title: "[FEATURE] "
 labels: enhancement
 assignees: ''
 ---
 
-## 🚀 The Goal
+## The Goal
 What’s the feature? Why is it valuable?
 
-## 🛠 Proposed Solution
+## Proposed Solution
 How should it work? (sketch, diagram, reference)
 
-## ↔️ Alternatives
+## Alternatives
 Any alternative designs/ideas considered?
 
-## ✅ Acceptance Criteria
+## Acceptance Criteria
 - [ ] Clear and testable definition of done.
