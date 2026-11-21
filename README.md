@@ -27,6 +27,8 @@ Our focus is on **ethical, zero‑waste in‑situ resource utilization (ISRU)** 
 
 We aren’t just mining rocks. We’re designing the **industrial ecosystem** to move human civilization **beyond Earth**, responsibly.
 
+> **Where we are right now:** a software company working toward a hardware future. For the next few years we are building fleet software, open protocols and safety logic in the open, and simulating vehicles before any are built. Aerospace hardware comes later. See [Software First, Hardware Later](#software-first-hardware-later).
+
 ---
 
 ## Core Philosophy
@@ -34,10 +36,51 @@ We aren’t just mining rocks. We’re designing the **industrial ecosystem** to
 - **Openly Collaborative** – Code, automation logic, and systems are developed in the open.  
 - **Multi‑path Contributions** – Everyone can help, whether through funds, code, or knowledge.  
 - **Fail‑Safe Engineering** – Robust control systems, redundancy, resiliency.  
+- **Software First, Hardware Earned** – Systems are written, simulated and tested in the open before anything is built in metal.  
 
 This project is more than technology. It’s a **movement**.
 
+## Software First, Hardware Later
+
+**Aerospace hardware is deferred, not abandoned.** For the next few years Overby Industries is a software organization. We are building the fleet software, open protocols, safety logic and simulations that every later hardware mission depends on, and we are building them in the open. The first hardware phase, the experimental amateur-built aircraft, now starts after that foundation is proven rather than before it. Nothing from Overby has flown yet, and nothing here should be read as saying otherwise.
+
+### Why software first
+
+- **Most of a fleet is software.** Coordinating vehicles across light-delay, navigating without GPS, reporting what happened, and deciding what to do when a link drops need no hangar, and all of it can be built and tested thoroughly on the ground.
+- **Hardware depends on it.** A vehicle that cannot report, be coordinated, or fail safely is not ready to fly, however good its airframe is. Getting this layer right first removes risk from every hardware phase.
+- **It is open and cheap to check.** Code, specifications and test suites can be reviewed and rerun by anyone, and a simulated fault costs nothing.
+- **Designs mature before metal.** Propulsion sizing, flight dynamics and control logic can be explored in simulation first, so what eventually gets built is informed by what simulation could not break.
+
+### What we are building now
+
+| Layer | What it is | Status | Repos |
+|---|---|---|---|
+| Fleet coordination | A coordinator and an on-vehicle agent that keep a fleet working through light-delay, link outages and vehicle faults | First working slice, in simulation | [`starlifter-os`](https://github.com/Overby-Industries/starlifter-os) |
+| Open protocols | OTF-1 (telemetry and fleet messages), OTB-1 (business transparency) and OTP-1 (a tamper-evident public record) | Drafts, each with a reference implementation and tests | [`telemetry-protocol`](https://github.com/Overby-Industries/telemetry-protocol), [`transparency-protocol`](https://github.com/Overby-Industries/transparency-protocol), [`overby-transparency-protocol`](https://github.com/Overby-Industries/overby-transparency-protocol) |
+| Vehicle and facility control | A mining-pod state machine, surface outpost and depot software, GPS-free navigation | Early | [`miner-automation`](https://github.com/Overby-Industries/miner-automation), [`outpost-core`](https://github.com/Overby-Industries/outpost-core), [`satnav-swarm`](https://github.com/Overby-Industries/satnav-swarm) |
+| Decision support | A deterministic tier for time-critical hazards, and a human-reviewed AI advisory tier for everything else | Designed, with early code | [`starlifter-os`](https://github.com/Overby-Industries/starlifter-os), [`ai-roundtable`](https://github.com/Overby-Industries/ai-roundtable) |
+| Reclamation | A debris registry and capture-technology research | Research | [`space-reclamation`](https://github.com/Overby-Industries/space-reclamation) |
+| Simulation and design | Propulsion sizing, aerodynamics, a flight simulator and a governance sandbox | Analysis, sizing and simulators | [`power-and-propulsion`](https://github.com/Overby-Industries/power-and-propulsion), [`design-studies`](https://github.com/Overby-Industries/design-studies), [`helga-flight-sim`](https://github.com/Overby-Industries/helga-flight-sim), [`aevoria-simulator`](https://github.com/Overby-Industries/aevoria-simulator) |
+
+### What is deferred
+
+Building and flying aircraft or spacecraft: the E-AB build, propulsion test articles, flight tests and anything orbital. Concept, sizing and analysis work continues on paper and in simulation, and bench rigs (microcontroller boards and sensors) are in scope for testing control logic.
+
+### Hardware begins when
+
+At a minimum:
+
+1. The fleet software runs a simulated multi-vehicle mission end to end over the open protocols, through link loss, vehicle faults and a node that never comes back.
+2. The time-critical safety tier (Tier 0, the deterministic layer that handles hazards with no AI or human approval in the loop) is specified, built and tested.
+3. The vehicle and pod controllers have run on bench rigs with injected faults.
+4. The first hardware phase is funded.
+
+These are working criteria and will be refined in the open.
+
 # GPT-5 Independent AI Analysis – Scientific Validity of Overby Industries Concepts
+
+> **Long-range concepts, not the near-term build.** The hardware described below is where the software is heading. For the next few years the work is [software first](#software-first-hardware-later). This review checks whether the concepts are scientifically plausible, not when they will be built.
+
 This review compares Overby Industries’ vision against real scientific studies and space agency research.
 
 ## Dustless Mining & Containment Bags
@@ -141,21 +184,29 @@ This vision isn’t just “sci-fi” — it is a carefully reasoned integration
 
 ## Repo Structure
 
-Here’s the digital “shipyard” of Overby Industries. Every repo below now exists and has at least a real mission doc and starting structure — several have open PRs from this pass, noted inline.
+Here’s the digital “shipyard” of Overby Industries, grouped by what each repo is for. Statuses describe what is on each repo’s main branch today; each repo’s own README is the source of truth.
 
-**Live now:**
+### Fleet software (the current focus)
 
-- **[`overby-industries-pwa`](https://github.com/Overby-Industries/overby-industries-pwa)**  
-  Next.js + Tailwind public site (overbyindustries.space).
-  *Whitepaper content sync (was hand-copied and drifted) + a real `/updates` feed in review: [PR #40](https://github.com/Overby-Industries/overby-industries-pwa/pull/40).*
+- **[`starlifter-os`](https://github.com/Overby-Industries/starlifter-os)**  
+  Custom distributed operating system for fleets (miners, satellites, Starlifters) — the fleet-level layer that coordinates vehicles which each run their own local control software.
+  *First working slice: a coordinator and an on-vehicle agent that talk only in OTF-1 packets, exercised by a deterministic simulation of light-delay, link outages and vehicle faults. Not flight software yet.*
 
-- **[`whitepapers`](https://github.com/Overby-Industries/whitepapers)**  
-  The living **Overby White Paper**, roadmaps, and scientific references.
-  *CI build fix + a new Magnetohydrodynamic Power & Propulsion paper draft in review: [PR #1](https://github.com/Overby-Industries/whitepapers/pull/1).*
+- **[`miner-automation`](https://github.com/Overby-Industries/miner-automation)**  
+  Automation for drills, crushers, containment bags and refinery pods.
+  *A working mining-pod state machine for Arduino Uno and ESP32, with redundant (2-of-3) containment-seal voting before drilling can start. Refining, manufacturing and agriculture automation are designed, not built.*
 
-- **[`power-and-propulsion`](https://github.com/Overby-Industries/power-and-propulsion)**  
-  Dual-mode ion thrusters (ionic-liquids or solar-wind: space + ABEP: atmospheric) and MHD-Lorentz drives also powered by solar wind capture or ionic-liquids.
-  *Now has an actual codebase — C++ sizing library for the MHD core, the shuttle flight-phase FSM, and a CAD starter script — in review: [PR #1](https://github.com/Overby-Industries/power-and-propulsion/pull/1).*
+- **[`satnav-swarm`](https://github.com/Overby-Industries/satnav-swarm)**  
+  Autonomous satellite navigation for cislunar and asteroid belt operations, where GPS doesn’t reach.
+  *Early software: position fixes from inter-vehicle ranging, swarm localization and close-approach screening. Star-tracker and optical navigation are not built.*
+
+- **[`outpost-core`](https://github.com/Overby-Industries/outpost-core)**  
+  Systems software for surface outposts and repair depots.
+  *Early software: docking and handoff scheduling, a solar-and-battery power budget, and an OTF-1 depot node. Life support is out of scope until crewed plans firm up.*
+
+- **[`ai-roundtable`](https://github.com/Overby-Industries/ai-roundtable)**  
+  Multi-agent AI deliberation layer (Jaseci/Jac) for non-urgent fleet decisions. Humans approve its recommendations, and time-critical hazards never pass through it.
+  *Early: the advisory request and recommendation formats are defined and the deliberation engine is being built.*
 
 - **[`space-reclamation`](https://github.com/Overby-Industries/space-reclamation)**  
   Overby Industries sets the Space Zero-Waste Standard:
@@ -165,7 +216,36 @@ Here’s the digital “shipyard” of Overby Industries. Every repo below now e
     - Transparency: operations certified by an “Overby Sustainability Code” available for public view.
       - Overby will prove that industry and ecological stewardship can coexist — even in space.
 
-    *Phase 1 research registry (sources, capture-tech comparison, debris-tracking schema) in review: [PR #1](https://github.com/Overby-Industries/space-reclamation/pull/1).*
+    *Research phase: a debris-tracking registry schema, a capture-technology survey with sources, and a bridge between registry entries and OTF-1.*
+
+### Open protocols
+
+- **[`telemetry-protocol`](https://github.com/Overby-Industries/telemetry-protocol)**  
+  OTF‑1 — the open telemetry format tying together Overby's mining, debris-reclamation and certification data, and the packets a fleet coordinator and its vehicles exchange.
+  *JSON Schema, a C++ reference implementation, a validator and tests; open for consultation.*
+
+- **[`transparency-protocol`](https://github.com/Overby-Industries/transparency-protocol)**  
+  OTB‑1 — the open JSON schema for publicly reporting Overby's expenditures and infrastructure investments.
+  *Draft: JSON Schema, a C++ reference implementation, a validator and tests.*
+
+- **[`overby-transparency-protocol`](https://github.com/Overby-Industries/overby-transparency-protocol)**  
+  OTP‑1, the Overby Ledger — a free, append-only, tamper-evident public record that does not use a blockchain.
+  *Draft: C++17 with no dependencies, adversarial tests, and an optional bridge from OTF-1 and OTB-1.*
+
+### Design and simulation (hardware, on paper)
+
+- **[`power-and-propulsion`](https://github.com/Overby-Industries/power-and-propulsion)**  
+  Dual-mode ion thrusters (ionic-liquids or solar-wind: space + ABEP: atmospheric) and MHD-Lorentz drives also powered by solar wind capture or ionic-liquids.
+  *Design and simulation only: a C++17 sizing library for the MHD core, a shuttle flight-phase state machine with firmware, CAD starters and the design docs. No hardware.*
+
+- **[`design-studies`](https://github.com/Overby-Industries/design-studies)**  
+  Diagrams, CAD, and high-level architecture visualizations.
+  *XFLR5 aerodynamics analysis for Project Helga/Starlifter II, concept sketches, and the Blender→Godot asset pipeline guide. The ~96MB of Blender source files still need Git LFS before they can move in — see that repo's `docs/asset-inventory.md`.*
+
+- **[`helga-flight-sim`](https://github.com/Overby-Industries/helga-flight-sim)**  
+  Project Helga — a flight simulator built around the Starlifter II, with real flight dynamics rather than arcade physics (Godot 4 with a C++ extension).
+
+### Governance and ethics
 
 - **[`code-of-universe-regulations`](https://github.com/Overby-Industries/code-of-universe-regulations)**  
   Constitution and ethical operating system for the Aevoric Commonwealth — direct democracy, transparency, and a post-scarcity governance model for space civilization.
@@ -176,33 +256,19 @@ Here’s the digital “shipyard” of Overby Industries. Every repo below now e
 - **[`aevoria-simulator`](https://github.com/Overby-Industries/aevoria-simulator)**  
   Adversarial sandbox that stress-tests the Code of Universe Regulations — an asteroid-mining and governance simulator for the Aevoric Commonwealth.
 
-- **[`telemetry-protocol`](https://github.com/Overby-Industries/telemetry-protocol)**  
-  OTF‑1 — the open telemetry format tying together Overby's mining, debris-reclamation, and certification data feeds.
-  *Now has a formal JSON Schema, examples, and a validator in review: [PR #1](https://github.com/Overby-Industries/telemetry-protocol/pull/1).*
+### Public face, research and tools
 
-- **[`transparency-protocol`](https://github.com/Overby-Industries/transparency-protocol)**  
-  OTB‑1 — the open JSON schema for publicly reporting Overby's expenditures and infrastructure investments.
-  *Now has a formal JSON Schema, examples, and a validator in review: [PR #1](https://github.com/Overby-Industries/transparency-protocol/pull/1).*
+- **[`overby-industries-pwa`](https://github.com/Overby-Industries/overby-industries-pwa)**  
+  Next.js + Tailwind public site (overbyindustries.space).
 
-- **[`starlifter-os`](https://github.com/Overby-Industries/starlifter-os)**  
-  Custom distributed operating system for fleets (miners, satellites, Starlifters) — coordinates the per-vehicle control each fleet member runs locally (see `power-and-propulsion`'s flight-phase FSM).
-  *Newly created — mission, relationship to other repos, and a draft architecture are up; implementation hasn't started.*
+- **[`whitepapers`](https://github.com/Overby-Industries/whitepapers)**  
+  The living **Overby White Paper**, roadmaps, and scientific references, built from LaTeX.
 
-- **[`miner-automation`](https://github.com/Overby-Industries/miner-automation)**  
-  PLC + automation systems for drills, crushers, containment bags, refinery pods.
-  *Newly created — mission and a draft pod-level FSM (gating drilling on redundant containment-seal confirmation) are up; implementation hasn't started.*
+- **[`free-preflight-app`](https://github.com/Overby-Industries/free-preflight-app)**  
+  FreeFlight — a free, lightweight pre-flight electronic flight bag for pilots: weather by airport, nearby traffic, installable and usable offline.
 
-- **[`satnav-swarm`](https://github.com/Overby-Industries/satnav-swarm)**  
-  Autonomous satellite navigation for cislunar and asteroid belt operations, where GPS doesn't reach.
-  *Newly created — mission and a draft navigation-approach doc are up; implementation hasn't started.*
-
-- **[`outpost-core`](https://github.com/Overby-Industries/outpost-core)**  
-  Systems software for surface outposts and repair depots.
-  *Newly created — mission and a draft subsystems doc are up; implementation hasn't started.*
-
-- **[`design-studies`](https://github.com/Overby-Industries/design-studies)**  
-  Diagrams, CAD, and high-level architecture visualizations.
-  *Newly created and already populated: XFLR5 aerodynamics analysis for Project Helga/Starlifter II, concept sketches, and the Blender→Godot asset pipeline guide, migrated in from local-only files. The ~96MB of Blender source files still need Git LFS before they can move in — see that repo's `docs/asset-inventory.md`.*
+- **[`asteroid-miner`](https://github.com/Overby-Industries/asteroid-miner)**  
+  A small 2D asteroid-mining game (Godot 4), built alongside the larger simulators.
 
 ---
 
@@ -217,10 +283,11 @@ Whether you bring **funding**, **code**, or **expertise** — there’s a place 
 ### Code Contributions  
 - Explore the repos above.  
 - Look for issues tagged **`good first issue`** for easy on‑ramps.  
-- Open PRs, ask in Discussions, and help prototype the **OS, miners, and swarm logic**.
+- Open PRs, ask in Discussions, and help build the **OS, protocols, miner and outpost control logic, and swarm navigation**. In the software-first years the most useful contributions are tests that try to break things, protocol and schema review, simulation scenarios, and a second pair of eyes on safety logic.
 
 ### Share Expertise  
 - Are you an engineer, automation expert, PLC programmer, orbital mechanic, or space ethicist?  
+- Distributed-systems, embedded C++, navigation (GNC) and safety-assurance experience is especially useful now; aerospace manufacturing and flight-test experience will matter when hardware begins.  
 - Email us at **founder@overbyindustries.space**  
 - Join discussions, share knowledge, shape the roadmap.  
 
@@ -228,19 +295,19 @@ Whether you bring **funding**, **code**, or **expertise** — there’s a place 
 
 ## Roadmap (High-Level)
 
-Mirrors the roadmap on the [Overby Industries site](https://overbyindustries.space) —
-see `src/app/content/roadmap.ts` in [`overby-industries-pwa`](https://github.com/Overby-Industries/overby-industries-pwa)
-for the source of truth this is kept in sync with.
+> **Revision, November 2026.** Hardware used to start in Q1 2028. It now starts after a multi-year software foundation, so Phase I is rewritten around software and the hardware phases keep their order but lose their dates until Phase II is funded and scheduled. The reasoning is in [Software First, Hardware Later](#software-first-hardware-later).
 
-- **Phase I — Foundations** *(Current – Q4 2027)*: Aerospace engineering drawings, avionics and embedded systems in C++. Document the build process with videos posted to the app.
-- **Phase II — Experimental Amateur Build** *(Q1 2028)*: Rent hangar space, build E‑AB aircraft and propulsion systems. Ground tests, taxi tests.
-- **Phase II.5 — Proof of Concept** *(Q1 2030)*: Fly a 1:6 scaled manned E‑AB test vehicle. Validate propulsion systems, avionics, and flight software.
-- **Phase III — Low Orbit Demo** *(Q3 2030)*: First suborbital mission — validate ISRU sensor packages and mining instrumentation in a real space environment.
-- **Phase IV — Near Earth Operations** *(Q4 2030)*: Deploy a small orbital platform. Begin debris-capture experiments, establish first profitable debris-capture contracts, build relationships with space agencies and commercial operators.
-- **Phase V — Industrial Pilot** *(2030 – 2040)*: Operational Starlifter II fleet. Lunar depot established. First profitable asteroid returns.
-- **Phase VI — Expansion** *(2040 – 2050)*: Asteroid belt exploitation, UHPC space construction, Mars staging posts established.
-- **Phase VII — Titan Era** *(2050)*: Titan base begins extracting hydrocarbons for plastics and fuels. Full ISRU integration. Overby Certification becomes a global standard.
-- **Phase VIII — Solar Civilization** *(2060)*: Closed-loop resource economy across the Solar System.
+- **Phase I — Software Foundations** *(Current – about 2029)*: Fleet OS, open protocols, vehicle and facility control logic, navigation, safety layers and simulation, built and tested in the open. Bench rigs only (microcontroller boards and sensors): no aircraft or spacecraft hardware. Design, CAD and aerodynamics analysis continue on paper. Development is documented openly in write-ups and videos.
+- **Phase II — Experimental Amateur Build** *(after Phase I; indicative start about 2030)*: Rent hangar space, build E‑AB aircraft and propulsion systems. Ground tests, taxi tests.
+- **Phase II.5 — Proof of Concept** *(date TBD)*: Fly a 1:6 scaled manned E‑AB test vehicle. Validate propulsion systems, avionics, and flight software.
+- **Phase III — Low Orbit Demo** *(date TBD)*: First suborbital mission — validate ISRU sensor packages and mining instrumentation in a real space environment.
+- **Phase IV — Near Earth Operations** *(date TBD)*: Deploy a small orbital platform. Begin debris-capture experiments, establish first profitable debris-capture contracts, build relationships with space agencies and commercial operators.
+- **Phase V — Industrial Pilot** *(date TBD)*: Operational Starlifter II fleet. Lunar depot established. First profitable asteroid returns.
+- **Phase VI — Expansion** *(date TBD)*: Asteroid belt exploitation, UHPC space construction, Mars staging posts established.
+- **Phase VII — Titan Era** *(date TBD)*: Titan base begins extracting hydrocarbons for plastics and fuels. Full ISRU integration. Overby Certification becomes a global standard.
+- **Phase VIII — Solar Civilization** *(date TBD)*: Closed-loop resource economy across the Solar System.
+
+Earlier versions of this roadmap placed Phase V in the 2030s, Phase VI in the 2040s, a Titan base around 2050 and a solar-system economy around 2060. Treat those as long-range aspirations rather than commitments; they will be re-dated once hardware begins.
 
 All phases beyond Phase I remain **TBD, requires funding.**
 
