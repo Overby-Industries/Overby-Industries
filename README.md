@@ -60,7 +60,7 @@ This project is more than technology. It’s a **movement**.
 | Vehicle and facility control | A mining-pod state machine, surface outpost and depot software, GPS-free navigation | Early | [`miner-automation`](https://github.com/Overby-Industries/miner-automation), [`outpost-core`](https://github.com/Overby-Industries/outpost-core), [`satnav-swarm`](https://github.com/Overby-Industries/satnav-swarm) |
 | Decision support | A deterministic tier for time-critical hazards, and a human-reviewed AI advisory tier for everything else | Designed, with early code | [`starlifter-os`](https://github.com/Overby-Industries/starlifter-os), [`ai-roundtable`](https://github.com/Overby-Industries/ai-roundtable) |
 | Reclamation | A debris registry and capture-technology research | Research | [`space-reclamation`](https://github.com/Overby-Industries/space-reclamation) |
-| Simulation and design | Propulsion sizing, aerodynamics, a flight simulator and a governance sandbox | Analysis, sizing and simulators | [`power-and-propulsion`](https://github.com/Overby-Industries/power-and-propulsion), [`design-studies`](https://github.com/Overby-Industries/design-studies), [`helga-flight-sim`](https://github.com/Overby-Industries/helga-flight-sim), [`aevoria-simulator`](https://github.com/Overby-Industries/aevoria-simulator) |
+| Simulation and design | Propulsion sizing, an orbital-drag and thruster simulator, aerodynamics, a flight simulator and a governance sandbox | Analysis, sizing and simulators | [`power-and-propulsion`](https://github.com/Overby-Industries/power-and-propulsion), [`ion-propulsion-simulator`](https://github.com/Overby-Industries/ion-propulsion-simulator), [`design-studies`](https://github.com/Overby-Industries/design-studies), [`helga-flight-sim`](https://github.com/Overby-Industries/helga-flight-sim), [`aevoria-simulator`](https://github.com/Overby-Industries/aevoria-simulator) |
 
 ### What is deferred
 
@@ -237,6 +237,10 @@ Here’s the digital “shipyard” of Overby Industries, grouped by what each r
 - **[`power-and-propulsion`](https://github.com/Overby-Industries/power-and-propulsion)**  
   Dual-mode ion thrusters (ionic-liquids or solar-wind: space + ABEP: atmospheric) and MHD-Lorentz drives also powered by solar wind capture or ionic-liquids.
   *Design and simulation only: a C++17 sizing library for the MHD core, a shuttle flight-phase state machine with firmware, CAD starters and the design docs. No hardware.*
+
+- **[`ion-propulsion-simulator`](https://github.com/Overby-Industries/ion-propulsion-simulator)**  
+  ABEP: Ion Thrusters Simulator — an open, deterministic simulator of atmospheric drag and air-breathing electric propulsion in low Earth orbit, built to ask how much power it takes to hold altitude.
+  *Early. The repo's own README says what is implemented and what has been validated.*
 
 - **[`design-studies`](https://github.com/Overby-Industries/design-studies)**  
   Diagrams, CAD, and high-level architecture visualizations.
